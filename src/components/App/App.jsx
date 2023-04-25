@@ -25,12 +25,29 @@ const App = () => {
           <div className='shadow'></div>
         </div>
 
-        <div className='squares'>
-          <div className='rotate'>Rotate</div>
-          <div className='scale'>Scale</div>
-          <div className='skew'>Skew</div>
-          {/* <div className='matrix'>Matrix</div> */}
+        <div >
+
+          <h1>Transform</h1>
+
+          <div className='squares'>      
+            <div className='rotate'>Rotate</div>
+            <div className='scale'>Scale</div>
+            <div className='skew'>Skew</div>
+            {/* <div className='matrix'>Matrix</div> */}
+          </div>
+
+          <h1>Transform origin</h1>
+          <p>The origin of the transformation is changed from the center of the element, to the top right corner</p>
+          <div className='squares ' >
+            <div className='rotate transformOrigin'>Rotate 2</div>
+            <div className='scale transformOrigin'>Scale</div>
+            <div className='skew transformOrigin'>Skew</div>
+          </div>
+          
+
         </div>
+
+
         
       </div>
     </div>
