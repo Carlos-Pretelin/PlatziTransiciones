@@ -1,4 +1,13 @@
 
+*{
+    box-sizing: border-box;
+    margin: 0;	
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
 
 
 //Pseudo Classes
@@ -17,4 +26,26 @@ a:hover{
 //Every link that does not have the firstName class will be aqua
 a:not(.firstName){
     color: aqua;
+}
+
+//This lets me put certain styles to the children of a class element in this case container
+.container div:nth-child(1){
+    color: green;
+}
+.container div:nth-child(2){
+    color: red;
+}
+.container div:nth-child(3){
+    color: orange;
+}
+
+
+//Pseudo elements
+
+.App::before{
+    content: "BEFORE";
+}
+
+.App::after{
+    content: "AFTER";
 }
