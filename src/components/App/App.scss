@@ -102,3 +102,23 @@ a:not(.firstName){
 .transformOrigin{
     transform-origin: right top;
 }
+
+.perspective-container{
+    width: 7rem;
+    height: 7rem;
+    border: .5rem solid green;
+    margin: 1rem 2rem;
+    position: relative;
+    perspective: 10rem;
+}
+
+.perspective-item{
+    position: absolute;
+    opacity: .5;
+    background-color: papayawhip;
+    border: .3rem solid pink;
+    width: inherit;
+    height: inherit;
+    transform-style: preserve-3d;
+    transform: rotateX(45deg);
+}
