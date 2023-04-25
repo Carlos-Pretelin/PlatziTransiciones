@@ -122,3 +122,37 @@ a:not(.firstName){
     transform-style: preserve-3d;
     transform: rotateX(45deg);
 }
+
+.card{
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    transform-style: preserve-3d;
+    margin: 2rem;
+
+}
+
+.card:hover{
+    transform: rotateX(180deg);
+}
+.card div{
+    border-radius: 2rem;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    backface-visibility: hidden;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-front{
+    background-color: pink;
+}
+
+.card-back{
+    background-color: papayawhip;
+    transform: rotateX(180deg);
+}

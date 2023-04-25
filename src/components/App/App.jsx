@@ -51,7 +51,21 @@ const App = () => {
               <div className='perspective-item'>
 
               </div>
-            </div>
+          </div>
+
+          <h1>Backface visibility</h1>
+          <p>
+            Here is a little more complicated, first when i hover over the Container the "card" element,<br/> 
+            both the front and the back will flip to their "back" side, but nothing will show, because i set the<br/> 
+            backface visibility to hidden, so i needed to flip the "back" section before hand so when i hover over <br/>
+            the "card", the "front" side will be hidden because ur seeing the hidden backface, but now ur seeing the front <br/>
+            of the "back" side of the card (sounds more complicated that it is).
+          </p>
+
+          <div className='card'>
+            <div className='card-front'> "Front" of the card</div>
+            <div className='card-back'> "Back" of the card</div>
+          </div>
           
 
         </div>
