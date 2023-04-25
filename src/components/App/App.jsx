@@ -24,6 +24,13 @@ const App = () => {
         <div className='circle'>
           <div className='shadow'></div>
         </div>
+
+        <div className='squares'>
+          <div className='rotate'>Rotate</div>
+          <div className='scale'>Scale</div>
+          <div className='skew'>Skew</div>
+          {/* <div className='matrix'>Matrix</div> */}
+        </div>
         
       </div>
     </div>

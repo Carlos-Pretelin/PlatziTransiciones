@@ -68,3 +68,33 @@ a:not(.firstName){
 .shadow:hover{
     transform: translate(30px, -15px);
 }
+
+.squares{
+    display: flex;
+    margin-top: 1.5rem;
+}
+.squares div{
+    width: 5rem;
+    height: 5rem;
+    background-color: green;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem .5rem;
+}
+
+.rotate:hover{
+    transform: rotate(45deg);
+    //transform: rotateX(45deg);
+    //transform: rotateY(45deg);
+}
+.scale:hover{
+    transform:scale(1.25);
+    //transform:scaleX(1.25);
+    //transform:scaleY(1.25);
+}
+.skew:hover{
+    transform: skew(20deg);
+    //transform: skew(20deg, 20deg);
+}
