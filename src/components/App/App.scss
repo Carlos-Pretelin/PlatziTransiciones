@@ -1,0 +1,20 @@
+
+
+
+//Pseudo Classes
+//Every link will be hotpink
+a:link{
+    color: hotpink;
+}
+//Every link that has been visited is tomato
+a:visited{
+    color: tomato;
+}
+//Every link that u hover is blue
+a:hover{
+    color: blue;
+}
+//Every link that does not have the firstName class will be aqua
+a:not(.firstName){
+    color: aqua;
+}
