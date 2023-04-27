@@ -1,25 +1,27 @@
 import React from 'react'
 
+import "./Menu.scss"
+
 const Menu = () => {
   return (
-    <div className='Menu'>
+    <div >
 
-        <ul>
-            <li>Men</li>
+        <ul className='Menu'>
+            <li><a href="">Men</a></li>
             <li><a href="">Women</a>
                 <ul>
-                    <li>Shirts</li>
-                    <li>Pants</li>
+                    <li><a href="">Shirts</a></li>
+                    <li><a href="">Pants</a></li>
                     <li><a href="">Shorts</a>
                         <ul>
-                            <li>Type1</li>
-                            <li>Type2</li>
-                            <li>Type3</li>
+                            <li><a href="">Type1</a></li>
+                            <li><a href="">Type2</a></li>
+                            <li><a href="">Type3</a></li>
                         </ul>
                     </li>
                 </ul>
             </li>
-            <li>Children</li>
+            <li><a href="">Children</a></li>
 
 
         </ul>
