@@ -8,6 +8,8 @@ const HomePage = () => {
     <div className='App'>
       
       <Link to={"/Scroll"}>Alice Scroll</Link>
+      <Link to={"/Transition"}>Transition</Link>
+
       <p>Hello World</p>
       <a href="" className='firstName'>Carlos</a>
       <a href="">Luis</a>

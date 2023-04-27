@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from '../HomePage/HomePage';
 import Scroll from "../Scroll/Scroll"
+import Transition from '../Transition/Transition';
 
 import "./App.scss"
 
@@ -11,6 +12,8 @@ const App = () => {
       <Routes>
         <Route exact path='/' element={<HomePage/>}/>
         <Route exact path='/Scroll' element={<Scroll/>}/>
+        <Route exact path='/Transition' element={<Transition/>}/>
+
       </Routes>
     </BrowserRouter>
   )
