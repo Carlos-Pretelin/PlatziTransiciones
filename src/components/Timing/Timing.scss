@@ -67,3 +67,21 @@
     transition: transform 1s linear;
     transform: translateX(20rem);
 }
+
+
+
+
+.Timing-blink-father:hover .Timing-blink-child {
+    transform: translateX(20rem);
+    transition: transform 400ms linear;
+}
+
+.Timing-blink-child{
+    border-radius: 50%;
+    background-color: greenyellow;
+    width: 7.5rem;
+    height: 7.5rem;
+    margin: 2rem auto;
+    transition: transform 400ms linear;
+
+}

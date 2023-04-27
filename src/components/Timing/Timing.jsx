@@ -28,6 +28,22 @@ const Timing = () => {
                    in how fast the ball returns to its original position, compared to how fast it goes when u hover it 
                 </p>
         </div>
+
+
+        <div>
+            <h2>Unwanted Blinks</h2>
+            <p>Sometimes the elements blink when u hover them because the cursor is no longer over them when they move and the animation repeats itself<br/>
+               very fast making this blink effect, to fix it u need to make the hover effect on the father element that u want to animate, like this : <br/> 
+               <strong>.father:hover .child {}</strong>
+            </p>
+
+            <div className='Timing-blink-father'>
+                <div className='Timing-blink-child'>
+
+                </div>
+
+            </div>
+        </div>
     </>
   )
 }
