@@ -7,7 +7,7 @@ const HomePage = () => {
     
     <div className='App'>
       
-      <Link to={"/Scroll"}>Scroll</Link>
+      <Link to={"/Scroll"}>Alice Scroll</Link>
       <p>Hello World</p>
       <a href="" className='firstName'>Carlos</a>
       <a href="">Luis</a>
