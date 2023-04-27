@@ -24,7 +24,7 @@ const Transition = () => {
             </div>
 
             <div>
-                <Link   Link to={"/Transition"}>Transition</Link>
+            <Link to={"/Timing"}>Timing</Link>
             </div>
             
 

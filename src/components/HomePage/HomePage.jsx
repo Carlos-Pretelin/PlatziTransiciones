@@ -9,6 +9,8 @@ const HomePage = () => {
       
       <Link to={"/Scroll"}>Alice Scroll</Link>
       <Link to={"/Transition"}>Transition</Link>
+      <Link to={"/Timing"}>Timing</Link>
+
 
       <p>Hello World</p>
       <a href="" className='firstName'>Carlos</a>

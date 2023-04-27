@@ -1,0 +1,68 @@
+
+
+.Timing-container{
+    background-color: beige;
+}
+
+.Timing-container:hover .Timing-container-circle{
+    transform: translateX(20rem);
+}
+
+.Timing-container-circle{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.Timing-container div:nth-child(1){
+    background-color: red;
+    transition: transform 800ms linear;
+    transition-delay: 500ms;
+}
+
+.Timing-container div:nth-child(2){
+    background-color: blue;
+    transition: transform 350ms ease;
+    transition-delay: 500ms;
+}
+
+
+.Timing-container div:nth-child(3){
+    background-color: green;
+    transition: transform 300ms ease-in;
+    transition-delay: 300ms;
+}
+
+
+.Timing-container div:nth-child(4){
+    background-color: yellow;
+    transition: transform 800ms ease-in-out;
+    transition-delay: 500ms;
+}
+
+.Timing-container div:nth-child(5){
+    background-color: orange;
+    transition: transform 500ms ease-out;
+    transition-delay: 500ms;
+}
+
+.Timing-container div:nth-child(5){
+    background-color: purple;
+    transition: transform 600ms;
+    transition-delay: 500ms;
+}
+
+
+
+.impulsed{
+    background-color: plum;
+    transition: transform 2s linear;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
+
+.impulsed:hover{
+    transition: transform 1s linear;
+    transform: translateX(20rem);
+}
