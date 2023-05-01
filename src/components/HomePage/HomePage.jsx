@@ -10,6 +10,8 @@ const HomePage = () => {
       <Link to={"/Scroll"}>Alice Scroll</Link>
       <Link to={"/Transition"}>Transition</Link>
       <Link to={"/Timing"}>Timing</Link>
+      <Link to={"/WillChange"}>WillChange</Link>
+
 
 
       <p>Hello World</p>

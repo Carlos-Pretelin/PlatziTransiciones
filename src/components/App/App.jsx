@@ -4,6 +4,7 @@ import HomePage from '../HomePage/HomePage';
 import Scroll from "../Scroll/Scroll"
 import Transition from '../Transition/Transition';
 import Timing from '../Timing/Timing';
+import WillChange from '../WillChange/WillChange';
 
 import "./App.scss"
 
@@ -15,6 +16,8 @@ const App = () => {
         <Route exact path='/Scroll' element={<Scroll/>}/>
         <Route exact path='/Transition' element={<Transition/>}/>
         <Route exact path='/Timing' element={<Timing/>}/>
+        <Route exact path='/WillChange' element={<WillChange/>}/>
+
 
 
       </Routes>

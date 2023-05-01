@@ -14,9 +14,9 @@ a:visited{
 a:hover{
     color: blue;
 }
-//Every link that does not have the firstName class will be aqua
+//Every link that does not have the firstName class will be green
 a:not(.firstName){
-    color: aqua;
+    color: green;
 }
 
 //This lets me put certain styles to the children of a class element in this case container

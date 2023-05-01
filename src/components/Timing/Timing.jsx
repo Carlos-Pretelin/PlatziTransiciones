@@ -34,7 +34,8 @@ const Timing = () => {
             <h2>Unwanted Blinks</h2>
             <p>Sometimes the elements blink when u hover them because the cursor is no longer over them when they move and the animation repeats itself<br/>
                very fast making this blink effect, to fix it u need to make the hover effect on the father element that u want to animate, like this : <br/> 
-               <strong>.father:hover .child {}</strong>
+               <strong>.father:hover .child {}</strong> This can be compared with the pink circle above, when the cursor its on its way when moving it begins to blink<br/>
+               So hovering the father elements will be the best practice
             </p>
 
             <div className='Timing-blink-father'>
